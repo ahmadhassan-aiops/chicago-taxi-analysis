@@ -68,7 +68,7 @@ def render() -> None:
             f"that started at the same hour, rain adds about <b>{adj['effect']:.1f} minutes</b>, smaller than the "
             f"raw {raw:.1f} but clearly real. About {1 - adj['effect'] / raw:.0%} of the raw gap was the time of day.")
 
-    note("The original notebook ran only the straight comparison, and removed the identical rows as duplicates. "
+    note("The first version of the analysis ran only the straight comparison, and removed the identical rows as duplicates. "
          "Start times are rounded to the hour, so identical rows are most likely separate rides; the toggle above "
          "shows the conclusion holds either way.")
 

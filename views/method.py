@@ -16,7 +16,7 @@ def render() -> None:
         "Data & method",
         "How the analysis was done",
         "The SQL results, the cleaning decisions, how the weather test was designed and the limits of the data. "
-        f'The full Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">original notebook</a>.',
+        f'The full Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
     )
 
     section("From SQL to Python")
