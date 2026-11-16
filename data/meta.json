@@ -1,0 +1,30 @@
+{
+  "built": "2026-11-17",
+  "raw_shapes": {
+    "companies": [
+      64,
+      2
+    ],
+    "dropoffs": [
+      94,
+      2
+    ],
+    "rides": [
+      1068,
+      3
+    ]
+  },
+  "companies": 64,
+  "trips_total": 137311,
+  "neighborhoods": 94,
+  "rides": 1068,
+  "duplicate_rides": 197,
+  "zero_duration": 6,
+  "saturdays": [
+    "2017-11-04",
+    "2017-11-11",
+    "2017-11-18",
+    "2017-11-25"
+  ],
+  "distinct_start_times": 81
+}
