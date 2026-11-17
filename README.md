@@ -1,5 +1,7 @@
 # Chicago taxis: who wins the market, where rides end, and does rain slow the airport run?
 
+**Live app:** [chicago-taxi-analysis.streamlit.app](https://chicago-taxi-analysis.streamlit.app/) · **Notebook and project folder:** [AIOPS-Portfolio-Projects](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Taxi%20Company%20Analysis)
+
 An interactive presentation of a SQL + Python analysis by **Ahmad Hassan** (AI Engineer), for a ride-sharing
 company preparing to launch in Chicago. SQL queries on Chicago taxi trips and weather data (November 2017)
 produced three result tables; Python analyses them.
