@@ -16,7 +16,7 @@ def render() -> None:
         "Data & method",
         "How the analysis was done",
         "The SQL results, the cleaning decisions, how the weather test was designed and the limits of the data. "
-        f'The full Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
+        f'The full Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a>.',
     )
 
     section("From SQL to Python")
@@ -39,8 +39,7 @@ def render() -> None:
 
     section("Cleaning decisions")
     st.table(pd.DataFrame([
-        ("Average drop-offs", "Stored with decimals (10727.47)", "Kept as averages (the notebook truncated them to "
-         "whole numbers; the ranking is the same)"),
+        ("Average drop-offs", "Stored with decimals (10727.47)", "Kept as averages, with decimals"),
         ("Identical ride rows", f"{m['duplicate_rides']} rows repeat another row exactly",
          f"Kept by default: start times are rounded to the hour ({m['distinct_start_times']} distinct start times "
          "for 1,068 rides), so identical rows are expected for different rides. A toggle shows the result without them"),
@@ -52,7 +51,7 @@ def render() -> None:
     md("- **Welch's t-test** compares the two average durations without assuming equal spread.\n"
        "- **Same-hour comparison.** Rainy rides are concentrated in the afternoon, which is slower anyway. A "
        "regression of duration on weather plus a separate term for each start hour compares rides that started "
-       "at the same hour, so time of day can't masquerade as a weather effect. This step was added for this app.\n"
+       "at the same hour, so time of day can't masquerade as a weather effect.\n"
        "- Significance level 0.05 by default; adjustable on the test page.")
 
     section("Limits of this data")

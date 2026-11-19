@@ -13,7 +13,7 @@ produced three result tables; Python analyses them.
   same start hour (regression with hour terms), with toggles for the cleaning choices.
 - **Data & method**: the SQL results, cleaning decisions, test design and limits.
 
-Notebook (updated with the corrections described in the app): [AIOPS-Portfolio-Projects / Taxi Company Analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Taxi%20Company%20Analysis)
+Notebook: [AIOPS-Portfolio-Projects / Taxi Company Analysis](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Taxi%20Company%20Analysis)
 
 ## Run locally
 
